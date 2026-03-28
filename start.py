@@ -14,13 +14,5 @@
 # print(f"Your weight is {round(weight,2)} {unit} ")
 
 
-thisdict = {
-  "brand": "Ford",
-  "model": "Mustang",
-    "model": "Mustang",
-    "brand": "Ford",
-  "model": "Mustang",
-    "model": "Mustang",
-  "year": 1964
-}
-print(thisdict)
+# how built an email validation
+email = input("Enter Your email")

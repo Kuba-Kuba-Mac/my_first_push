@@ -13,6 +13,9 @@
 #     print(num1/num2)
 # else :
 #     print(f"{operator} is not valid")
+from curses.ascii import isdigit, isalpha
+
+
 
 
 
