@@ -1,3 +1,4 @@
+# weight project
 weight  = float(input("Enter your weight :"))
 unit = input("Kilogram or unit (K / P): ")
 
