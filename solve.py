@@ -10,3 +10,20 @@ elif unit == "f":
     print(f"the temperature in Celsius is {temp}c")
 else :
     print(f"{unit} is an invalid unit of measurement")
+
+
+num =  int(input("Enter a number :"))
+print("Positive" if num >= 0 else "Negative")
+
+result = "Even" if num % 2 == 0 else "Odd"
+print(result)
+a = int(input("Enter a number :"))
+b = int(input("Enter b number :"))
+c = int(input("Enter c number :"))
+
+m = a if a > b else b
+print(f"max of this numbers is {m}")
+
+weather  = int(input("Enter a temp :"))
+result  = "Cold" if not weather >= 18 else "hot"
+print(result)
