@@ -13,6 +13,3 @@
 #
 # print(f"Your weight is {round(weight,2)} {unit} ")
 
-
-# how built an email validation
-email = input("Enter Your email")
