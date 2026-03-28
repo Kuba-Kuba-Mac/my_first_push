@@ -8,4 +8,4 @@ for x in range(n,0,-1):
     print(f"{hour:02}:{minutes:02}:{second:02}")
     time.sleep(1)
 
-print("Time's up nigger ")
+print("Time's Up")
