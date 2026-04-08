@@ -9,10 +9,12 @@ def show_manu():
     print("4. delete task")
     print("5. Exit")
 
+
 def add_tasks():
     task = input("Enter task: ")
     tasks.append({"task":task,"done":False})
     print(f"Task {task} added !")
+
 
 def view_task() :
     if not tasks:
@@ -22,6 +24,7 @@ def view_task() :
     for i ,task in enumerate(tasks,start=1):
         status = "done" if task["done"] else "Not done"
         print(f"{i} {task} {status}")
+
 
 def mark_down():
     view_task()
@@ -37,6 +40,7 @@ def mark_down():
     except ValueError:
         print("Please enter a valid number ")
 
+
 def delete_tasks():
     view_task()
     if not tasks:
@@ -50,6 +54,7 @@ def delete_tasks():
 
     except ValueError:
         print("Please enter a valid number")
+
 
 while True:
     show_manu()
