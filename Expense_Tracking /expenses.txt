@@ -1,0 +1,5 @@
+burger 7
+pizza 5
+coffee 5
+cruasane 12
+coke 4

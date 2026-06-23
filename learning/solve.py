@@ -23,7 +23,6 @@ c = int(input("Enter c number :"))
 
 m = a if a > b else b
 print(f"max of this numbers is {m}")
-
 weather  = int(input("Enter a temp :"))
 result  = "Cold" if not weather >= 18 else "hot"
 print(result)

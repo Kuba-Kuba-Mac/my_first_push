@@ -14,7 +14,7 @@ while playing:
     print(f"Computer :{computer}")
 
     n = input("Would you continue? (y/n) :")
-    if n.lower() == "y":
+    if n.lower() == "n":
         playing = False
 
 

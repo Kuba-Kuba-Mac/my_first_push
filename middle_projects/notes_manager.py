@@ -24,7 +24,7 @@ def add_note():
 
 
 def edit_note():
-    note = input("Enter what do you wanna no add: ")
+    note = input("Enter what do you wanna to add: ")
     file_path = input("enter a file path : ")
 
     if not os.path.exists(file_path):

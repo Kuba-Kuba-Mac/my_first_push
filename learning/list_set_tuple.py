@@ -22,7 +22,7 @@
 # print(fruits.count("banana"))
 #
 #
-# # set
+# set
 # fruits = {"apple" , "orange", "banana", "coconut","coconut"}
 # print(dir(fruits))
 # print(help(fruits))

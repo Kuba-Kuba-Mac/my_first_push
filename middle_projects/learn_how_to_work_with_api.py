@@ -12,10 +12,6 @@ if response.status_code == 200:
     print(f"Имя: {data['name']}")
     print(f"Репозитории: {data['public_repos']}")
     print(f"Дата регистрации: {data['created_at']}")
-#
-#
-#
-#
 
 url = f"https://official-joke-api.appspot.com/random_joke"
 response = requests.get(url)

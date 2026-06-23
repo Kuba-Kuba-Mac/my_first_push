@@ -1,17 +1,17 @@
  # learning  string method in python
-name = input("Enter your name :")
-
-result  = len(name)
-result = name.find("a")
-result = name.rfind("q") # return -1 if can't find
-name = name.capitalize()
-name = name.upper()
-name = name.lower()
-result = name.isdigit()
-result = name.isalpha()
-result = name.count("-")
-result = name.replace("-","")
-print(result)
+# name = input("Enter your name :")
+#
+# result  = len(name)
+# result = name.find("a")
+# result = name.rfind("q") # return -1 if can't find
+# name = name.capitalize()
+# name = name.upper()
+# name = name.lower()
+# result = name.isdigit()
+# result = name.isalpha()
+# result = name.count("-")
+# result = name.replace("-","")
+# print(result)
 
 
  # some task about validation
