@@ -28,7 +28,6 @@ def get_main_keyboard():
     builder.adjust(1)
     return builder.as_markup(resize_keyboard=True)
 
-
 # Обработчик команды /start
 @dp.message(Command("start"))
 async def cmd_start(message: types.Message):
